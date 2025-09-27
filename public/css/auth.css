@@ -1,0 +1,100 @@
+/* public/css/auth.css */
+/* Digabungkan dan disesuaikan dari login.css & register.css */
+
+html, body {
+    height: 100%;
+}
+
+body.auth-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.auth-container {
+    max-width: 450px;
+    width: 100%;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    text-align: center;
+}
+
+.auth-logo {
+    margin-bottom: 20px;
+    max-width: 100px; /* Sesuaikan ukuran logo jika perlu */
+}
+
+.auth-container h2 {
+    color: #5d7e2c;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.auth-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.auth-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Menyesuaikan style untuk input dari Breeze */
+.auth-form input[type="text"],
+.auth-form input[type="email"],
+.auth-form input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.auth-form input:focus {
+    outline: none;
+    border-color: #7BAA23;
+}
+
+.auth-form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #8cc03b;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.auth-form button:hover {
+    background-color: #7BAA23;
+}
+
+.auth-container .login-register-link {
+    margin-top: 20px;
+    color: #555;
+}
+
+.auth-container .login-register-link a {
+    color: #5d7e2c;
+    font-weight: 600;
+    text-decoration: none;
+}
+.auth-container .login-register-link a:hover {
+    text-decoration: underline;
+}
